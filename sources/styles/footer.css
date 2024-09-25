@@ -1,0 +1,66 @@
+footer {
+  background-color: #1c1615;
+  color: #e6d4bd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.footer-logo .information .icons{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-logo img{
+  height: 120px;
+  margin-bottom: 15px;
+}
+
+.footer-logo p{
+  font-size: 30px;
+  margin: 0;
+}
+
+.main-info .free-call{
+  font-size: 18px;
+}
+
+.rights{
+  font-size: 15px;
+}
+
+.contacts{
+  text-align: right;
+}
+
+.contacts p{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.call{
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+}
+
+.call img{
+  height: 25px;
+  margin-right: 15px;
+}
+
+.icons{
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  padding-top: 10px;
+}
+
+.icons img{
+  height: 30px;
+}

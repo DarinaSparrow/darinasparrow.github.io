@@ -1,0 +1,100 @@
+.assortment{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr 5fr 1fr;
+}
+
+.accompanying-image{
+    grid-column: 2/3;
+}
+
+.accompanying-image img{
+    height: 80vh;
+    width: 100%;
+    object-fit: cover;
+}
+  
+.variety{
+    grid-column: 4/5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; 
+}
+
+.variety p{
+    font-size: 20px;
+    margin: 0;
+}
+
+.variety ul{
+    padding-left: 20px;
+}
+
+.variety ul li{
+    font-size: 20px;
+}
+
+.price-button{
+    background-color: #a97a57;
+    color: black;
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+  
+.price-button:hover{
+    background-color: #6e401d;
+}
+  
+.price-button:active{
+    background-color: #4a211d;
+}
+
+.all-advantages{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+  
+.advantage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.advantage img{
+    height: 120px;
+    margin-bottom: 15px;
+}
+  
+.advantage p{
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+  }
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.contacts-button{
+    background-color: #a97a57;
+    color: black;
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+  
+.contacts-button:hover{
+    background-color: #6e401d;
+}
+  
+.contacts-button:active{
+    background-color: #4a211d;
+}

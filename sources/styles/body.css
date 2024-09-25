@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    background-color: #e6d4bd;
+    font-family: "Roboto";
+}
+
+.background-image{
+  height: 70vh;
+  width: 100%;
+  position: relative;
+}
+
+.background-image img{
+  height: 70vh;
+  width: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+
+.reviews-main{
+  text-align: center;
+}
+
+.title{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.description{
+  font-size: 20px;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+hr {
+  width: 70%;
+  border-style: solid;
+  border-color: #4a211d;
+  text-align: center;
+  margin: 40px auto;
+}

@@ -1,0 +1,52 @@
+.background-for-contacts{
+    height: 70vh;
+    width: 100%;
+    position: relative;
+}
+
+.background-for-contacts img{
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+}
+
+.contacts-main{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr 5fr 1fr;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .map{
+    grid-column: 2/3;
+  }
+  
+  .contact-info{
+    grid-column: 4/5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .headline{
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .contact-info ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 20px;
+  }
+
+  .contact-info li{
+    font-size: 20px;
+  }
+
+  .shop{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
